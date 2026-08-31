@@ -1,16 +1,16 @@
 :root {
-  --bg: #f4efe8;
-  --bg-soft: #f8f6f2;
+  --bg: #faf7f2;
+  --bg-soft: #fcfbf9;
   --panel: #ffffff;
-  --panel-strong: #f0eadf;
-  --primary: #2d3d2f;
-  --primary-soft: #516958;
-  --accent: #d7b98a;
-  --text: #1d1a17;
-  --muted: #5d544d;
-  --border: rgba(29, 26, 23, 0.18);
-  --shadow: 0 18px 40px rgba(41, 33, 24, 0.08);
-  --radius: 26px;
+  --panel-strong: #f5f1eb;
+  --primary: #2a2a2a;
+  --primary-soft: #5a5a5a;
+  --accent: #d4952a;
+  --text: #1a1a1a;
+  --muted: #6b6b6b;
+  --border: rgba(29, 26, 23, 0.12);
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  --radius: 8px;
 }
 
 * {
@@ -140,7 +140,7 @@ a {
   background:
     linear-gradient(90deg, rgba(18, 22, 21, 0.76) 0%, rgba(18, 22, 21, 0.38) 42%, rgba(18, 22, 21, 0.18) 100%),
     url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
-  border-radius: 30px;
+  border-radius: 8px;
   box-shadow: var(--shadow);
 }
 
@@ -276,7 +276,7 @@ a {
   width: min(100%, 390px);
   aspect-ratio: 1.07;
   position: relative;
-  border-radius: 30px;
+  border-radius: 8px;
   background:
     linear-gradient(135deg, rgba(140, 116, 87, 0.18), rgba(29, 26, 23, 0.12)),
     url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80") center/cover no-repeat;
@@ -364,7 +364,7 @@ button:hover {
   padding: 24px 18px;
   background: rgba(255, 255, 255, 0.55);
   border: 1px solid var(--border);
-  border-radius: 22px;
+  border-radius: 8px;
   box-shadow: 0 12px 28px rgba(30, 24, 19, 0.04);
 }
 
@@ -373,7 +373,7 @@ button:hover {
   max-width: 220px;
   aspect-ratio: 1.2;
   position: relative;
-  border-radius: 18px;
+  border-radius: 6px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -420,7 +420,7 @@ button:hover {
 .project-card {
   height: 230px;
   position: relative;
-  border-radius: 24px;
+  border-radius: 8px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -474,7 +474,7 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   width: min(760px, 100%);
   margin: 0 auto;
-  border-radius: 22px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--panel);
@@ -507,7 +507,7 @@ button:hover {
 .post-card {
   min-height: 205px;
   padding: 22px 18px 18px;
-  border-radius: 22px;
+  border-radius: 8px;
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid var(--border);
   box-shadow: 0 10px 26px rgba(33, 31, 27, 0.04);
@@ -658,7 +658,7 @@ button:hover {
 
 .about-hero-image {
   min-height: 420px;
-  border-radius: 28px;
+  border-radius: 8px;
   background:
     linear-gradient(135deg, rgba(21, 24, 22, 0.18), rgba(21, 24, 22, 0.08)),
     url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
@@ -688,7 +688,7 @@ button:hover {
 .metric-item {
   background: rgba(255, 255, 255, 0.65);
   border: 1px solid var(--border);
-  border-radius: 22px;
+  border-radius: 8px;
   padding: 26px 22px;
   box-shadow: 0 10px 24px rgba(32, 25, 20, 0.04);
 }
@@ -757,7 +757,7 @@ button:hover {
 
 .portfolio-item {
   position: relative;
-  border-radius: 28px;
+  border-radius: 8px;
   overflow: hidden;
   background: var(--panel);
   box-shadow: var(--shadow);
@@ -850,9 +850,9 @@ button:hover {
 .cta-section {
   text-align: center;
   padding: 50px 40px;
-  background: linear-gradient(135deg, rgba(215, 185, 138, 0.12), rgba(81, 105, 88, 0.08));
-  border-radius: 28px;
-  border: 1px solid rgba(215, 185, 138, 0.2);
+  background: linear-gradient(135deg, rgba(212, 149, 42, 0.12), rgba(81, 105, 88, 0.08));
+  border-radius: 8px;
+  border: 1px solid rgba(212, 149, 42, 0.15);
   margin-top: 60px;
 }
 
@@ -886,6 +886,7 @@ button:hover {
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 36px 28px;
+  border-radius: 8px;
 }
 
 .contact-info-box h2 {
@@ -919,6 +920,7 @@ button:hover {
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 36px 28px;
+  border-radius: 8px;
 }
 
 .field-row {
@@ -944,7 +946,7 @@ button:hover {
 .contact-form textarea {
   padding: 12px 14px;
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 4px;
   font-family: inherit;
   font-size: 1rem;
   color: var(--text);
